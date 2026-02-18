@@ -1,16 +1,71 @@
-# React + Vite
+# 🔐 Personal Dashboard — Auth + Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Personal Dashboard web app built with **React + Firebase**.
+Users can sign up, log in, and manage their personal tasks in a clean dashboard layout.
 
-Currently, two official plugins are available:
+This project was built to practice **authentication, context API, CRUD operations, and dashboard UI structure**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* User Signup & Login (Firebase Authentication)
+* Protected dashboard pages
+* Add tasks
+* Delete tasks
+* Global task state using Context API
+* Sidebar dashboard layout
+* Profile page with user info
+* Beginner-friendly structure
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* React (Vite)
+* React Router
+* Firebase Auth
+* Context API
+* Tailwind CSS
+* JavaScript
+
+ 
+## 🔐 Authentication
+
+Firebase Authentication is used for:
+
+* Signup with email & password
+* Login
+* Logout
+* Getting current user info
+
+Auth state is managed using **AuthContext**.
+
+---
+
+## 📝 Tasks (Todo)
+
+Tasks are handled using **TaskPageContext**.
+
+Users can:
+
+* Add task
+* Delete task
+* View task list
+
+## 🎯 Purpose
+
+This project was built to learn:
+
+* React structure
+* Context API
+* Firebase authentication
+* CRUD basics
+* Dashboard layout
+
+---
+
+## 👨‍💻 Author
+
+Built by:  Chandru
+Frontend Developer in learning 🚀
